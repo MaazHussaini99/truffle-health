@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px; /* Set the width to 500px */
-    margin: 0 auto; /* Center the component horizontally */
+    width: 500px;
+    margin: 0 auto;
   }
   
   .edit-component-container .MuiTextField-root {
-    margin-bottom: 1rem; /* Add spacing between fields */
-    width: 100%; /* Make the fields occupy the full width */
+    margin-bottom: 1rem;
+    width: 100%;
   }
   
   .edit-component-container .MuiButton-root {
-    width: 100%; /* Make the buttons occupy the full width */
-    margin-top: 2rem; /* Add spacing below the buttons */
+    width: 100%;
+    margin-top: 2rem;
   }
