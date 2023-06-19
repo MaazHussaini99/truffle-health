@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
-  background-image: url('cool-background.png'); /* Specify the image URL */
+  background-image: url('cool-background.png');
   background-size: cover;
   background-position: center;
 }

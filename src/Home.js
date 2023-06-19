@@ -22,7 +22,6 @@ const Home = ({ bills, onAddBill, onEditBill, onDeleteBill }) => {
   const handleBackClick = () => {
     setSelectedBill(null);
   };
-  
 
   return (
     <Box sx={{ marginTop: 4 }}>
@@ -85,7 +84,7 @@ const Home = ({ bills, onAddBill, onEditBill, onDeleteBill }) => {
                       <TableCell>{bill.patientName}</TableCell>
                       <TableCell>{bill.hospitalName}</TableCell>
                       <TableCell>{bill.dateOfService}</TableCell>
-                      <TableCell>{bill.billAmount}</TableCell>
+                      <TableCell>${bill.billAmount}</TableCell>
                       <TableCell>
                         {bill.billImage && (
                           <img
