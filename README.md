@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Health Dashboard
+
 To use this project you will have to create .env file in your project directory add following lines to it with your firebase info:
 
   REACT_APP_API_KEY="YOUR_API_KEY",
